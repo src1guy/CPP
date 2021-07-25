@@ -1,2 +1,2 @@
 # CPP
-Open-source'owe skrypty w C++ ;-)
+Open-source C++ scripts ;-D
