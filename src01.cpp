@@ -10,44 +10,44 @@ int a, b, wynikp, wynikm, wynikd, wynikx;
 
 int main()
 {
-    cout << "Witam w 'src01'. Podaj PIN" << endl;
+    cout << "Welcome to 'src01'. Input PIN" << endl;
     cin >> pin;
 
     if (pin == "2026")
     {
-        cout << "PIN poprawny" << endl;
-        cout << "Podaj login:" << endl;
+        cout << "PIN is correct" << endl;
+        cout << "Input login:" << endl;
         cout << "admin, bruno" << endl;
         cin >> login;
 
         if (login == "admin")
         {
-            cout << "Konto w produkcji :)" << endl;
+            cout << "Account in production :)" << endl;
         }
 
         if (login == "bruno")
         {
-            cout << "Udano zalogowac sie do konta." << endl;
-            cout << "Kalkulator wlaczony. Podaj dwie cyfry." << endl;
+            cout << "Login successfully." << endl;
+            cout << "Calculator on. Enter two digits." << endl;
             cin >> a;
             cin >> b;
             wynikp = a + b;
             wynikm = a - b;
             wynikd = a / b;
             wynikx = a * b;
-            cout << "Dodawanie: " << wynikp << endl;
-            cout << "Odejmowanie: " << wynikm << endl;
-            cout << "Dzielenie: " << wynikd << endl;
-            cout << "Mnozenie: " << wynikx << endl;
+            cout << "Adding: " << wynikp << endl;
+            cout << "Substraction: " << wynikm << endl;
+            cout << "Division: " << wynikd << endl;
+            cout << "Multiplication:  " << wynikx << endl;
         }
         if ((login != "admin") && (login != "bruno"))
         {
-            cout << "ERROR 001: NIE ZNALEZIONO";
+            cout << "ERROR 001";
         }
 
     }
     else
     {
-        cout << "PIN niepoprawny. Dostep odmowiony" << endl;
+        cout << "Incorrect PIN. Access denied" << endl;
     }
 }
