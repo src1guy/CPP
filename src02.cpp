@@ -14,7 +14,7 @@ void menu();
 
 int main()
 {
-    cout << "Welcome to 'src01'. Input PIN" << endl;
+    cout << "Welcome to 'src02'. Input PIN" << endl;
     cin >> pin;
 
     if (pin == "2026")
