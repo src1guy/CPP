@@ -7,7 +7,7 @@
 
 using namespace std;
 
-//src05
+//src06
 //Bruno S.
 //2021
 
@@ -105,5 +105,10 @@ void menu()
     if (wybor == "2")
     {
         calc_bmi();
+    }
+    if (wybor == "EXIT")
+    {
+        Beep(600, 200), Beep(500, 200), Beep(600, 600), Beep(500, 600);
+        return;
     }
 }
